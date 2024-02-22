@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Poppins, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #442445;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.flex-div {
+  display: flex;
+  place-content: center;
+}
+
+.form-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  gap: 15px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  width: 20%;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.7px solid gray;
+}
+
+.form-button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.7px solid gray;
+  background-color: rgb(87, 100, 218);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.button-home {
+  margin-top: 2rem;
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.7px solid gray;
+  background-color: rgb(87, 100, 218);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Post-section {
+  border: 0.8px solid gray;
+  border-radius: 5px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.post-span {
+  margin-left: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
